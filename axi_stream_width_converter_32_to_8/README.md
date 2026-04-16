@@ -61,7 +61,7 @@ DD CC BB AA
 
 ## Waveform
 
-На waveform видно, как входное 32-битное слово принимается по `s_axis_*`, после чего на выходе `m_axis_tdata` последовательно появляются 8-битные части слова. Также показана работа backpressure через сигнал `m_axis_tready`.
+На waveform видно, как входное 32-битное слово принимается по `s_axis_tdata`, после чего на выходе `m_axis_tdata` последовательно появляются 8-битные части слова. Также показана работа backpressure через сигнал `m_axis_tready`.
 
 ![AXI-Stream Width Converter waveform](./materials/waveform_axi_stream_width_converter_32_to_8.png)
 
