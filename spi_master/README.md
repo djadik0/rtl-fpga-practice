@@ -33,7 +33,7 @@
 
 На waveform видно, что после подачи `start` модуль активирует `cs_n`, формирует тактовый сигнал `sclk`, передаёт данные по `mosi`, принимает данные по `miso`, а после завершения обмена выставляет `done`.
 
-![SPI Master waveform](./waveform_spi_master.png)
+![SPI Master waveform](./materials/waveform_spi_master.png)
 
 ## Результат работы
 
